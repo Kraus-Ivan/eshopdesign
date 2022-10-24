@@ -57,11 +57,13 @@
     padding: 4px 8px;
     text-align: center;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .card__header .card__header--icon {
     display: inline-block;
     margin: 0;
+    vertical-align: middle;
 }
 
 .card__dots {
