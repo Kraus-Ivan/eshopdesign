@@ -1,3 +1,7 @@
+.container {
+    display: flex;
+}
+
 .card {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
@@ -41,6 +45,7 @@
     text-decoration: none;
     text-align: center;
     font-size: 1.4em;
+    margin: 0;
     margin-top: 0.5em;
 }
 
@@ -60,7 +65,7 @@
     vertical-align: middle;
 }
 
-.card__header .card__header--icon {
+.card__header .card__icon {
     display: inline-block;
     margin: 0;
     vertical-align: middle;
@@ -86,6 +91,22 @@
     background-color: #11111126;
 }
 
+.dot--pink {
+    background-color: rgb(248, 223, 227);
+}
+
+.dot--blue {
+    background-color: rgb(212, 244, 255);
+}
+
+.dot--white {
+    background-color: white;
+}
+
+.card__icon--star {
+    width: 1em;
+}
+
 .card__body {
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +122,7 @@
     font-size: 12px;
     margin: 0;
     margin-bottom: 2em;
+    min-height: 60px;
 }
 
 .footer__prices{
